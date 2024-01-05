@@ -1,0 +1,62 @@
+/* sheard style link */
+
+ body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+ }
+
+ .text-primary{
+   
+    color: #FD6E0A;
+    }
+
+    .btn-primary{
+        border-radius: 5px;
+        background-color: #FD6E0A;
+        border: 0;
+        color:#ffff;
+        font-size: 17px;
+        font-weight: 700;
+        padding:15px 25px;
+    }
+/* nav relative style css apply */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav-title{
+    color:#181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+/* head releative style */
+.head{
+    background-color: #FFF8F3;
+
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .web-photos{
+    width: 500px;
+}
